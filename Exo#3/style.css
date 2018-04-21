@@ -1,0 +1,66 @@
+body{
+	display:flex;
+	justify-content:space-around;
+}
+
+
+#recto {
+	width:321px;
+	height:204px;
+	background-image: url(images_exo3/fond1.jpg);
+}
+
+.ico1{
+	position: absolute;
+	left: 14%;
+}
+
+h3{
+	text-align:center;
+	text-shadow: 2px 1px 8px #94857C; 
+	font-family:sans-serif;
+	font-style:italic;
+	position: relative;
+	color:white;
+	border-bottom:2px solid #D65804;
+	top:-3px;
+}
+
+p{
+	font-size:10px;
+	color:white;
+	font-family:sans-serif;
+}
+
+.site {
+	float:right;
+	padding-right:25px;
+	margin-top:-35px;
+	color:#D65804;
+	text-decoration: underline;
+}
+
+.adress p{
+	color:#D65804;
+}
+
+
+#verso{
+	width:321px;
+	height:204px;
+	display:flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-image: url(images_exo3/fond.jpg);
+	background-position:center;
+}
+
+h1{
+	text-align:center;
+	color:#D65804;
+	text-shadow: 4px 4px 8px #94857C;
+	font-family:arial;
+	font-style:italic;
+	font-weight:bold;
+	letter-spacing: 25px;
+}
