@@ -1,0 +1,242 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   margin:0 auto;
+   width:100%;
+}
+
+.container {
+   margin-left: 100px;
+   margin-right: 100px;
+
+}
+ 
+
+/* Typography */
+
+h1, h2 {
+   font-family:"Love Ya Like A Sister";
+   color: #d17f38;
+}
+
+h1 {
+   text-align: center;
+   background:url(../images/header-divider.png) no-repeat center center;
+   
+}
+
+h1 em {
+   color: #4b2707;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p.lead {
+   font-size: 20px;
+   text-align: center;
+
+}
+
+p {
+
+}
+
+a:link, a:visited {
+   color:#d17f38;
+}
+
+a:hover {
+
+}
+
+hr {
+   background:url("../images/divider.png") no-repeat center center;
+   border:0;
+   height:30px;
+   margin:40px;
+}
+
+
+/* Header */
+
+header nav {
+   margin-right: 100px;
+   margin-left: 100px;
+}
+
+header nav ul {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+header nav ul li {
+   list-style-type: none;
+   text-transform: uppercase;
+}
+
+header nav ul li a {
+   text-decoration: none;
+   
+}
+
+header nav ul li a:hover {
+   
+}
+
+header nav ul li#logo a {
+   height:140px;
+   width:260px;
+   display:block;
+   background:url("../images/logo-hover.png") ;
+   text-indent:-9999px;
+
+}
+
+header nav ul li#logo a:hover {
+   height:140px;
+   width:260px;
+   display:block;
+   background:url("../images/logo.png");
+   text-indent:-9999px;
+}
+
+
+/* Hero */
+
+#hero {
+   background: url(../images/bg-tile-yellow.gif);
+}
+
+#hero .container {
+   text-align: center;
+   margin-left: 115px;
+   padding-top: 10px;
+}
+
+#hero .large-ribbon {
+   background: url(../images/fresh-whole-ingredients.png) no-repeat center;
+   text-indent:-9999px;
+   float: right;
+   display:block;
+   height: 200px;
+   width: 200px;
+   position: relative;
+   top:-520px;
+   right:35px;
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+   display: block;
+   height: 100px;
+   width: 400px;
+   
+}
+
+#best-donut {
+   background: url(../images/award.png) no-repeat center center;
+   position: relative;
+   top: -50px;
+   float: right;
+}
+/* News & Events */
+
+#articles {
+
+}
+
+#feature-image {
+   float: right;
+   position: relative;
+   top: -450px;
+}
+
+
+#news-events article {
+   display:block;
+   width: 400px;
+   height: 200px;
+
+}
+
+#news-events article.news {
+
+}
+
+#news-events article.event {
+
+}
+
+#news-events header time {
+
+}
+
+#news-events section.excerpt {
+
+}
+
+#news-events footer {
+
+}
+
+
+/* Footer */
+
+footer.main {
+   background-color: #4b2707;
+   color: #f2f3ee;
+}
+
+footer.main a:hover {
+   color:#d17f38;
+}
+
+#uncopyright, #credits {
+   
+}
+
+#uncopyright {
+   
+}
+
+#credits {
+   
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
